@@ -76,7 +76,6 @@ p {
 .l1 {
   width: 50%;
   text-align: left;
-  align-items: flex-start;
   display: inline-block;
   float: left;
 }
@@ -84,7 +83,6 @@ p {
 .r1 {
   width: 50%;
   text-align: right;
-  align-items: flex-end;
   display: inline-block;
   float: right;
 }
@@ -107,19 +105,17 @@ p {
   box-sizing: border-box;
   height: 80px;
   border-bottom: 1px solid #dddddd;
-  padding: 10px 5px;
+  padding: 8px 8px 8px 8px;
 }
 
 .oos {
   box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 8px 20px 8px;
 }
 
 .re {
   box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 8px 20px 8px;
 }
 
 .out-of-service {
